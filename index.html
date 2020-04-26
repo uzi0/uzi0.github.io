@@ -5,18 +5,60 @@
         <meta charset="UTF-8">
         <meta name="description" content="Usman Khan's personal site">
         <meta name="author" content="Usman Khan">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"
     </head>
-    <body>
+    <body onload="typing()">
         <nav>
             <a>About</a>
-            <a>Experience</a>
-            <a>Contact</a>
+            <a href="#projects">Experience</a>
+            <a href="#contact">Contact</a>
         </nav>
-        <div class="header">
-            <h1>Usman Khan</h1>
-            <p> Welcome to my personal website! </p>
+        <div id="center">
+            <div id="header">
+                <h1> Usman says</h1>
+                <div class="container">
+                    <img style="display:inline" src="resources/img/msg.png"/>
+                    <h2 id="welcometxt"> Welcome to my personal website! Here you'll find an assortment of my projects and experiments. </h2>
+                    <p id="welcometime"> </p>
+                </div>
+                
+            </div>
+
+            <div id="projects">
+                <h1>Projects</h1>
+                <div class="project">
+                    <h2 class="name"><strong>Coming Soon!</strong> Project Picass.io </h2>
+                    <h3> React, Node.js, WebSockets </h3>
+                    <img src="resources/img/picasso_icon.jpg"/>
+                    <p>Placeholder image, credits: Matt Lehman</p>
+                    <p>Online Pictionary with features like integrated video chat and custom rooms!</p>
+
+                </div>
+                <div class="project">
+                    <h2 class="name">Coin Man</h2>
+                    <h3> Java, libGDX, Photoshop </h3>
+                    <img src="resources/img/coinman.png"/>
+                    <p>A Java game from <em>my younger days</em>. The world's raining money, and you've got a grappling hook. <em>Go get some.</em></p>
+                </div>
+                <div class="project">
+                    <h2 class="name">Projection</h2>
+                    <h3> Excel, VBA </h3>
+                    <img src="resources/img/coinman.png"/>
+                    <p>A project management tool.</p>
+                </div>
+            </div>
+
+            <div id="contact">
+                <h1>Let's Connect</h1>
+                <div class="contactinfo">
+
+                </div>
+            </div>
+
+
         </div>
     </body>
+    
+    <script src="resources/js/script.js"></script>
 </html>
