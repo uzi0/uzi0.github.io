@@ -66,7 +66,7 @@ img {
     top: 20%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
     width: 65%; /* Set the width of the positioned div */
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 #welcometime {
@@ -80,7 +80,7 @@ img {
 }
 
 #msg {
-    width:90%
+    width:100%;
 }
 
 #start {
@@ -93,7 +93,7 @@ img {
     left: 0;
     right:0;
     width: 25%;
-    height: 65%;
+    height: 60%;
     border-radius: 80%;
     box-shadow: 0 2px darkred;
 }
