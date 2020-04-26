@@ -1,3 +1,20 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #322a2d;
+    font-family: 'Roboto', serif
+}
+
 h1 {
     color: #E0115F;
+}
+
+p {
+    color: #ffcccc;
+}
+
+.header {
+    background-color: #2c2528
 }
