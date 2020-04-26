@@ -11,7 +11,12 @@ body {
 
 h1 {
     color: #E0115F;
+    font-size: 3rem;
     margin-top: 6rem;
+}
+
+h1:first-of-type {
+    margin-top: 1rem;
 }
 
 p {
@@ -56,6 +61,12 @@ img {
     position: relative;
 }
 
+#avatar {
+    display:inline-block;
+    max-width:12rem;
+    border-radius:60%
+}
+
 #welcometxt {
     color: wheat;
     position: absolute;
@@ -89,7 +100,7 @@ img {
     position: absolute;
     z-index: 1;
     margin: 0 auto;
-    top: 50vh;
+    top: 40vh;
     left: 0;
     right:0;
     width: 25%;
@@ -112,11 +123,11 @@ img {
 
 #start:hover::after {
     color: wheat;
-    -webkit-transform: translateY(8px);
-    -moz-transform: translateY(8px);
-    -ms-transform: translateY(8px);
-    -o-transform: translateY(8px);
-    transform: translateY(8px);
+    -webkit-transform: translateY(12px);
+    -moz-transform: translateY(12px);
+    -ms-transform: translateY(12px);
+    -o-transform: translateY(12px);
+    transform: translateY(12px);
 }
 
 #arrow {

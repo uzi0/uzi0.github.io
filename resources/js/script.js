@@ -1,5 +1,5 @@
 const date = new Date();
-
+// 2 digit format preferred always
 const formatUnit = unit => ("0"+unit).slice(-2);
 
 const hr = formatUnit(date.getHours());
@@ -11,7 +11,7 @@ let dots = 0;
 const welcome = document.getElementById("welcometxt");
 const { innerHTML } = welcome;
 welcome.innerHTML="";
-
+// mimicing ellipsis "typing" indicator found in chat apps
 const typing = () => {
     if (dots<=16) {         
         welcome.innerHTML += "."; 
