@@ -82,3 +82,7 @@ img {
     top: 70%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
 }
+
+.languages {
+    color: teal
+}
