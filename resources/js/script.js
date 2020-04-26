@@ -27,7 +27,7 @@ const typing = () => {
 const writeWelcome = () => {
     if (i<innerHTML.length) {
         welcome.innerHTML+=innerHTML.charAt(i);
-        setTimeout(writeWelcome, 25);
+        setTimeout(writeWelcome, 15);
     } else {
         document.getElementById("welcometime").innerHTML = `✓ Seen at ${hr}:${min}:${sec}`;
     }
