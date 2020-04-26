@@ -65,7 +65,8 @@ img {
     right: 5%;
     top: 20%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
-    width: 50%; /* Set the width of the positioned div */
+    width: 65%; /* Set the width of the positioned div */
+    font-size: 1.75rem;
 }
 
 #welcometime {
@@ -78,6 +79,10 @@ img {
     text-align: center;
 }
 
+#msg {
+    width:90%
+}
+
 #start {
     background-color: tomato;
     border:none;
@@ -87,8 +92,8 @@ img {
     top: 50vh;
     left: 0;
     right:0;
-    width: 20%;
-    height: 50%;
+    width: 25%;
+    height: 65%;
     border-radius: 80%;
     box-shadow: 0 2px darkred;
 }
@@ -107,15 +112,15 @@ img {
 
 #start:hover::after {
     color: wheat;
-    -webkit-transform: translateY(4px);
-    -moz-transform: translateY(4px);
-    -ms-transform: translateY(4px);
-    -o-transform: translateY(4px);
-    transform: translateY(4px);
+    -webkit-transform: translateY(8px);
+    -moz-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    -o-transform: translateY(8px);
+    transform: translateY(8px);
 }
 
 #arrow {
-    font-size: 4rem;
+    font-size: 8rem;
 }
 
 #start:hover {
